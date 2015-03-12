@@ -1,2 +1,2 @@
 # MXVCTransitionAnimations
-I use swift to custom  a variety of transition animations about 'ViewController'. You can study.  
+I use swift to customize  a variety of transition animations about 'ViewController'. You can study.  
