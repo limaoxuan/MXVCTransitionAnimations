@@ -9,8 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var button: UIButton!
+    
 
+    @IBAction func backEvent(sender: AnyObject) {
+        
+        transitionType( TransitionType.MaskLayerZoomOut)
+        
+        self.navigationController?.popViewControllerAnimated(true)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         view.layer.contents = UIImage(named: "background1")?.CGImage

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B090DC51AB8171100FD7CA2 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B090DC41AB8171100FD7CA2 /* MainTableViewController.swift */; };
+		9B090DC71AB82D9B00FD7CA2 /* ViewControllerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B090DC61AB82D9B00FD7CA2 /* ViewControllerTransition.swift */; };
+		9B090DCA1AB90F3800FD7CA2 /* MXEaseNormalTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B090DC91AB90F3800FD7CA2 /* MXEaseNormalTools.swift */; };
+		9B090DCC1AB95EC200FD7CA2 /* ImageTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B090DCB1AB95EC200FD7CA2 /* ImageTransitionAnimator.swift */; };
 		9B247F741AB2BCF7009E87B9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B247F731AB2BCF7009E87B9 /* SecondViewController.swift */; };
 		9B247F761AB2BEEC009E87B9 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B247F751AB2BEEC009E87B9 /* NavigationControllerDelegate.swift */; };
 		9B247F781AB2BF92009E87B9 /* CircleTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B247F771AB2BF92009E87B9 /* CircleTransitionAnimator.swift */; };
@@ -30,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B090DC41AB8171100FD7CA2 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		9B090DC61AB82D9B00FD7CA2 /* ViewControllerTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTransition.swift; sourceTree = "<group>"; };
+		9B090DC91AB90F3800FD7CA2 /* MXEaseNormalTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MXEaseNormalTools.swift; sourceTree = "<group>"; };
+		9B090DCB1AB95EC200FD7CA2 /* ImageTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransitionAnimator.swift; sourceTree = "<group>"; };
 		9B247F731AB2BCF7009E87B9 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9B247F751AB2BEEC009E87B9 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
 		9B247F771AB2BF92009E87B9 /* CircleTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTransitionAnimator.swift; sourceTree = "<group>"; };
@@ -64,6 +72,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B090DC81AB8302500FD7CA2 /* Transiton */ = {
+			isa = PBXGroup;
+			children = (
+				9B090DC61AB82D9B00FD7CA2 /* ViewControllerTransition.swift */,
+				9B247F751AB2BEEC009E87B9 /* NavigationControllerDelegate.swift */,
+				9B247F771AB2BF92009E87B9 /* CircleTransitionAnimator.swift */,
+				9B090DCB1AB95EC200FD7CA2 /* ImageTransitionAnimator.swift */,
+			);
+			name = Transiton;
+			sourceTree = "<group>";
+		};
 		9BD6F32E1AB2B4E100782CC3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,11 +104,12 @@
 		9BD6F3391AB2B4E100782CC3 /* MXVCTransitionAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				9B090DC81AB8302500FD7CA2 /* Transiton */,
+				9B090DC41AB8171100FD7CA2 /* MainTableViewController.swift */,
+				9B090DC91AB90F3800FD7CA2 /* MXEaseNormalTools.swift */,
 				9BD6F33C1AB2B4E100782CC3 /* AppDelegate.swift */,
 				9BD6F3411AB2B4E100782CC3 /* ViewController.swift */,
 				9B247F731AB2BCF7009E87B9 /* SecondViewController.swift */,
-				9B247F771AB2BF92009E87B9 /* CircleTransitionAnimator.swift */,
-				9B247F751AB2BEEC009E87B9 /* NavigationControllerDelegate.swift */,
 				9BD6F3431AB2B4E100782CC3 /* Main.storyboard */,
 				9BD6F3461AB2B4E100782CC3 /* Images.xcassets */,
 				9BD6F3481AB2B4E100782CC3 /* LaunchScreen.xib */,
@@ -227,9 +247,13 @@
 				9B247F761AB2BEEC009E87B9 /* NavigationControllerDelegate.swift in Sources */,
 				9B247F741AB2BCF7009E87B9 /* SecondViewController.swift in Sources */,
 				9BD6F3421AB2B4E100782CC3 /* ViewController.swift in Sources */,
+				9B090DC71AB82D9B00FD7CA2 /* ViewControllerTransition.swift in Sources */,
 				9BD6F33D1AB2B4E100782CC3 /* AppDelegate.swift in Sources */,
 				9BD6F3401AB2B4E100782CC3 /* MXVCTransitionAnimations.xcdatamodeld in Sources */,
 				9B247F781AB2BF92009E87B9 /* CircleTransitionAnimator.swift in Sources */,
+				9B090DCC1AB95EC200FD7CA2 /* ImageTransitionAnimator.swift in Sources */,
+				9B090DCA1AB90F3800FD7CA2 /* MXEaseNormalTools.swift in Sources */,
+				9B090DC51AB8171100FD7CA2 /* MainTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
