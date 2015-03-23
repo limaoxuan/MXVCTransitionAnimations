@@ -81,6 +81,36 @@ class MainTableViewController: UIViewController,UITableViewDataSource,UITableVie
     
     }
     
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        
+        print(indexPath.row)
+        
+        if indexPath.row == 1 {
+        
+            let toViewController =     getMainStoryboardInstance("ImageViewController")
+
+        self.navigationController?.pushViewController(toViewController, animated: true)
+            
+        
+        
+        }
+   
+        
+
+        
+        
+        
+//        self.performSegueWithIdentifier("toChatSegue", sender: self)
+
+        
+        
+//        performSegueWithIdentifier("", sender: self)
+        
+    }
+    
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
       
         if segue.identifier == "setting" {

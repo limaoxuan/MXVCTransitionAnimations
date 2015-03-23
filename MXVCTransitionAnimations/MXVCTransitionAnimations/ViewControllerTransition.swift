@@ -12,8 +12,9 @@ public enum TransitionType{
     
     case MaskLayerZoomOut
     case MaskLayerZoomIn
-    case ImageTransition
     
+    case ImageTransitionIn
+    case ImageTransitionOut
     
     
 }
@@ -21,29 +22,36 @@ public enum TransitionType{
 func transitionType(transitionType:TransitionType){
 
     var transition : UIViewControllerAnimatedTransitioning!
+    
+    
     switch transitionType{
     
     case .MaskLayerZoomIn:
         
         transition =   CircleTransitionAnimator(duration: 0.5, circleType: CircleTransitionType.ZoomIn)
-
-    
+        
     case .MaskLayerZoomOut:
         
         
         transition = CircleTransitionAnimator(duration: 0.5, circleType: CircleTransitionType.ZoomOut)
     
         
-    case .ImageTransition:
+    case .ImageTransitionIn:
         
+        transition = ImageTransitionAnimator(duration: 0.3, transitionType: ImageTransitionType.TransitionIn)
         
+    case .ImageTransitionOut:
         
-        print("")
+        transition = ImageTransitionAnimator(duration: 0.3, transitionType: ImageTransitionType.TransitionOut)
+        print("ss")
+        
         
         
     default:
         print("")
     }
+    
+    
     accroingToTransitionTypeSettingTranstion(transition)
    
 }

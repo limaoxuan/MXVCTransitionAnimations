@@ -14,6 +14,8 @@
 		9B247F741AB2BCF7009E87B9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B247F731AB2BCF7009E87B9 /* SecondViewController.swift */; };
 		9B247F761AB2BEEC009E87B9 /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B247F751AB2BEEC009E87B9 /* NavigationControllerDelegate.swift */; };
 		9B247F781AB2BF92009E87B9 /* CircleTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B247F771AB2BF92009E87B9 /* CircleTransitionAnimator.swift */; };
+		9B25E41D1ABABB29004EBE09 /* ImagechildrenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25E41C1ABABB29004EBE09 /* ImagechildrenViewController.swift */; };
+		9B25E41F1ABAC309004EBE09 /* MXConstrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25E41E1ABAC309004EBE09 /* MXConstrains.swift */; };
 		9BD6F33D1AB2B4E100782CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6F33C1AB2B4E100782CC3 /* AppDelegate.swift */; };
 		9BD6F3401AB2B4E100782CC3 /* MXVCTransitionAnimations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6F33E1AB2B4E100782CC3 /* MXVCTransitionAnimations.xcdatamodeld */; };
 		9BD6F3421AB2B4E100782CC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6F3411AB2B4E100782CC3 /* ViewController.swift */; };
@@ -21,6 +23,9 @@
 		9BD6F3471AB2B4E100782CC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD6F3461AB2B4E100782CC3 /* Images.xcassets */; };
 		9BD6F34A1AB2B4E100782CC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BD6F3481AB2B4E100782CC3 /* LaunchScreen.xib */; };
 		9BD6F3561AB2B4E200782CC3 /* MXVCTransitionAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6F3551AB2B4E200782CC3 /* MXVCTransitionAnimationsTests.swift */; };
+		9BE25C891ABA9A6E00F0EFFA /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE25C881ABA9A6E00F0EFFA /* ImageViewController.swift */; };
+		9BE25C8C1ABAA09D00F0EFFA /* ImageViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE25C8A1ABAA09D00F0EFFA /* ImageViewCollectionViewCell.swift */; };
+		9BE25C8D1ABAA09D00F0EFFA /* ImageViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BE25C8B1ABAA09D00F0EFFA /* ImageViewCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,8 @@
 		9B247F731AB2BCF7009E87B9 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9B247F751AB2BEEC009E87B9 /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
 		9B247F771AB2BF92009E87B9 /* CircleTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTransitionAnimator.swift; sourceTree = "<group>"; };
+		9B25E41C1ABABB29004EBE09 /* ImagechildrenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagechildrenViewController.swift; sourceTree = "<group>"; };
+		9B25E41E1ABAC309004EBE09 /* MXConstrains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MXConstrains.swift; sourceTree = "<group>"; };
 		9BD6F3371AB2B4E100782CC3 /* MXVCTransitionAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXVCTransitionAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD6F33B1AB2B4E100782CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD6F33C1AB2B4E100782CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +59,9 @@
 		9BD6F34F1AB2B4E200782CC3 /* MXVCTransitionAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXVCTransitionAnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD6F3541AB2B4E200782CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD6F3551AB2B4E200782CC3 /* MXVCTransitionAnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXVCTransitionAnimationsTests.swift; sourceTree = "<group>"; };
+		9BE25C881ABA9A6E00F0EFFA /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		9BE25C8A1ABAA09D00F0EFFA /* ImageViewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		9BE25C8B1ABAA09D00F0EFFA /* ImageViewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +85,21 @@
 		9B090DC81AB8302500FD7CA2 /* Transiton */ = {
 			isa = PBXGroup;
 			children = (
-				9B090DC61AB82D9B00FD7CA2 /* ViewControllerTransition.swift */,
 				9B247F751AB2BEEC009E87B9 /* NavigationControllerDelegate.swift */,
+				9B090DC61AB82D9B00FD7CA2 /* ViewControllerTransition.swift */,
 				9B247F771AB2BF92009E87B9 /* CircleTransitionAnimator.swift */,
 				9B090DCB1AB95EC200FD7CA2 /* ImageTransitionAnimator.swift */,
 			);
 			name = Transiton;
+			sourceTree = "<group>";
+		};
+		9B25E4201ABAC496004EBE09 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9B090DC91AB90F3800FD7CA2 /* MXEaseNormalTools.swift */,
+				9B25E41E1ABAC309004EBE09 /* MXConstrains.swift */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 		9BD6F32E1AB2B4E100782CC3 = {
@@ -104,9 +123,13 @@
 		9BD6F3391AB2B4E100782CC3 /* MXVCTransitionAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				9B25E4201ABAC496004EBE09 /* Tools */,
+				9B25E41C1ABABB29004EBE09 /* ImagechildrenViewController.swift */,
+				9BE25C881ABA9A6E00F0EFFA /* ImageViewController.swift */,
+				9BE25C8A1ABAA09D00F0EFFA /* ImageViewCollectionViewCell.swift */,
+				9BE25C8B1ABAA09D00F0EFFA /* ImageViewCollectionViewCell.xib */,
 				9B090DC81AB8302500FD7CA2 /* Transiton */,
 				9B090DC41AB8171100FD7CA2 /* MainTableViewController.swift */,
-				9B090DC91AB90F3800FD7CA2 /* MXEaseNormalTools.swift */,
 				9BD6F33C1AB2B4E100782CC3 /* AppDelegate.swift */,
 				9BD6F3411AB2B4E100782CC3 /* ViewController.swift */,
 				9B247F731AB2BCF7009E87B9 /* SecondViewController.swift */,
@@ -225,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD6F3451AB2B4E100782CC3 /* Main.storyboard in Resources */,
+				9BE25C8D1ABAA09D00F0EFFA /* ImageViewCollectionViewCell.xib in Resources */,
 				9BD6F34A1AB2B4E100782CC3 /* LaunchScreen.xib in Resources */,
 				9BD6F3471AB2B4E100782CC3 /* Images.xcassets in Resources */,
 			);
@@ -253,7 +277,11 @@
 				9B247F781AB2BF92009E87B9 /* CircleTransitionAnimator.swift in Sources */,
 				9B090DCC1AB95EC200FD7CA2 /* ImageTransitionAnimator.swift in Sources */,
 				9B090DCA1AB90F3800FD7CA2 /* MXEaseNormalTools.swift in Sources */,
+				9BE25C891ABA9A6E00F0EFFA /* ImageViewController.swift in Sources */,
+				9B25E41F1ABAC309004EBE09 /* MXConstrains.swift in Sources */,
 				9B090DC51AB8171100FD7CA2 /* MainTableViewController.swift in Sources */,
+				9B25E41D1ABABB29004EBE09 /* ImagechildrenViewController.swift in Sources */,
+				9BE25C8C1ABAA09D00F0EFFA /* ImageViewCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MXVCTransitionAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MXVCTransitionAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

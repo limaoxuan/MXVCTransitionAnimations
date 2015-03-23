@@ -33,6 +33,7 @@ class CircleTransitionAnimator: NSObject , UIViewControllerAnimatedTransitioning
 
     
     weak var transitionContext: UIViewControllerContextTransitioning?
+    
     func transitionDuration(transitionContext: UIViewControllerContextTransitioning) -> NSTimeInterval {
         return duration
     }
@@ -43,8 +44,11 @@ class CircleTransitionAnimator: NSObject , UIViewControllerAnimatedTransitioning
         
         //2
         var containerView = transitionContext.containerView()
+        
         var fromViewController = transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)!
+        
         var toViewController = transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)!
+        
         var button = fromViewController.view.viewWithTag(1) as UIButton
         
         //3
@@ -62,7 +66,7 @@ class CircleTransitionAnimator: NSObject , UIViewControllerAnimatedTransitioning
         
         case .ZoomOut:
              containerView.addSubview(toViewController.view)
-            containerView.addSubview(fromViewController.view)
+             containerView.addSubview(fromViewController.view)
            
 
         zoomOutAniamtion(button, fromViewController: fromViewController)
@@ -82,6 +86,7 @@ class CircleTransitionAnimator: NSObject , UIViewControllerAnimatedTransitioning
         
         print(button.frame)
         
+//        path mask 看的到的一个点 而不是看不到的～！
         var circleMaskPathFinal = UIBezierPath(ovalInRect:button.frame)
         
         var extremePoint = CGPoint(x: button.center.x - 0, y: button.center.y - CGRectGetHeight(fromViewController.view.bounds))
@@ -96,7 +101,7 @@ class CircleTransitionAnimator: NSObject , UIViewControllerAnimatedTransitioning
         
         
         var maskLayerAnimation = CABasicAnimation(keyPath: "path")
-        // 放大
+    
         
         maskLayer.path = circleMaskPathInitial.CGPath
         fromViewController.view.layer.mask = maskLayer
@@ -121,7 +126,8 @@ class CircleTransitionAnimator: NSObject , UIViewControllerAnimatedTransitioning
     func zoomInAniamtion(button:UIButton,toViewController:UIViewController){
     
     
-    
+        //        path mask 看的到的一个点 而不是看不到的～！ 
+
         var circleMaskPathInitial = UIBezierPath(ovalInRect: button.frame)
         
         //        print("\(button.center.x)  : \(button.center.y)")
@@ -167,6 +173,10 @@ class CircleTransitionAnimator: NSObject , UIViewControllerAnimatedTransitioning
         self.transitionContext?.completeTransition(!self.transitionContext!.transitionWasCancelled())
         self.transitionContext?.viewControllerForKey(UITransitionContextFromViewControllerKey)?.view.layer.mask = nil
        self.transitionContext?.viewControllerForKey(UITransitionContextToViewControllerKey)?.view.layer.mask = nil
+        
+        
+        // require
+        getAppdelegate().transition = nil
     }
     
 }

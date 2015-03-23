@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     @IBAction func backEvent(sender: AnyObject) {
         
-        transitionType( TransitionType.MaskLayerZoomOut)
+        transitionType(TransitionType.MaskLayerZoomOut)
         
         self.navigationController?.popViewControllerAnimated(true)
         
@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         view.layer.contents = UIImage(named: "background1")?.CGImage
         view.contentMode  = UIViewContentMode.ScaleAspectFill
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {

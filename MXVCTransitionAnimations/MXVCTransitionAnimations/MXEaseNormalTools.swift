@@ -89,3 +89,25 @@ return UIApplication.sharedApplication().delegate as AppDelegate
 
 }
 
+
+//
+func getStoryBoard()->UIStoryboard{
+
+
+    let board = UIStoryboard(name: "Main", bundle: nil)
+    
+    return board
+
+}
+
+func getMainStoryboardInstance(className:String)->UIViewController{
+
+
+let controller = getStoryBoard().instantiateViewControllerWithIdentifier(className) as UIViewController
+
+return controller
+
+
+}
+
+//
